@@ -1,0 +1,151 @@
+/* ------------------------------
+    KHAN-TECH HOTEL BOOKING SYSTEM
+    Clean, modern UI
+--------------------------------*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* ---------- BODY / BACKGROUND ---------- */
+body {
+  /* PATH FIXED: Go up one level from CSS folder */
+  background: url("../IMAGES/Royal_streets.jpg") no-repeat center center fixed; 
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #fff;
+}
+
+.container, .main-section, main {
+  background: transparent;
+}
+
+/* ---------- HEADER ---------- */
+header {
+  text-align: center;
+  background: rgba(0, 0, 0, 0.75);
+  padding: 25px 0;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #ffcc00;
+  text-transform: uppercase;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+header p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+    margin-top: 5px;
+}
+
+/* ---------- FORM ---------- */
+.booking-form {
+  background: rgba(0, 0, 0, 0.85);
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 30px 40px;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
+  border: 1px solid rgba(255, 204, 0, 0.3);
+}
+
+.booking-form h2 {
+    text-align: center;
+    color: #ffcc00;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.booking-form label {
+  display: block;
+  margin: 12px 0 6px;
+  font-weight: 500;
+  color: #ffcc00;
+  font-size: 14px;
+}
+
+.booking-form input,
+.booking-form select,
+.booking-form textarea {
+  width: 100%;
+  padding: 10px 12px;
+  border: none;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.95);
+  color: #333;
+  font-size: 15px;
+  outline: none;
+  border: 1px solid transparent;
+  transition: all 0.3s;
+}
+
+.booking-form input:focus,
+.booking-form select:focus,
+.booking-form textarea:focus {
+  background: #fff;
+  border-color: #ffcc00;
+  box-shadow: 0 0 8px rgba(255, 204, 0, 0.5);
+}
+
+.booking-form textarea {
+    resize: vertical;
+    min-height: 80px;
+}
+
+.booking-form button {
+  margin-top: 25px;
+  width: 100%;
+  background-color: #ffcc00;
+  color: #000;
+  font-size: 18px;
+  font-weight: 600;
+  border: none;
+  padding: 12px 0;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 10px rgba(255, 204, 0, 0.4);
+}
+
+.booking-form button:hover {
+  background-color: #fff;
+  color: #111;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 15px rgba(255, 204, 0, 0.6);
+}
+
+.admin-link {
+    display: block;
+    text-align: center;
+    margin-top: 15px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    opacity: 0.8;
+    transition: opacity 0.3s;
+}
+
+.admin-link:hover {
+    opacity: 1;
+    color: #ffcc00;
+}
+
+/* ---------- FOOTER ---------- */
+footer {
+  text-align: center;
+  margin-top: auto;
+  padding: 20px 0;
+  background: rgba(0, 0, 0, 0.75);
+  color: #fff;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.5);
+}
